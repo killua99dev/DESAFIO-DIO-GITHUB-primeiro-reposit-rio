@@ -1,2 +1,2 @@
-# DESAFIO-DIO-GITHUB-primeiro-reposit-rio
-iniciando primeiro repositório
+# DESAFIO DIO GIT/GITHUB - primeiro repositório
+Repositório criado para mostrar meu desenvolvimento com GIT/GITHUB
