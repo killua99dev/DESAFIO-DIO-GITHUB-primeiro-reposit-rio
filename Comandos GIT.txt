@@ -52,4 +52,17 @@ comando (git reset --hard "id do código que quer voltar")
 Para voltar a versão mais atual usamos o mesmo comando com 
 o id do código mais atual (git reset --hard "id do código mais atual")
 
- 
+   -Criando nova branch-
+Para criar uma nova branch, utilizamos o comando:
+(git branch "nome da branch")
+
+Para saber quantas branchs há no seu programa,
+utilizaremos o comando (git branch)
+
+   -Substituindo sua branch-
+Para substituir uma branch por outra, iremos rodar
+o comando: (git checkout 'nome da branch que quer usar')
+obs: utilizar aspas simples
+
+
+

@@ -12,4 +12,12 @@ códigos que já estão testados e funcionando.
 
 Merge é o processo de trazer os códigos da branch
 secundária que estão funcionando, para a branch principal
-onde são guardados apenas códigos que funcionam. 
+onde são guardados apenas códigos que funcionam.
+
+A branch que você está utilizando estará com um '*' e o
+nome dela estará verde.
+
+Qualquer alteração feita numa branch substituta, não
+irá mais para principal, a não ser que façamos o processo
+de merge.
+
