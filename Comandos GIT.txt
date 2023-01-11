@@ -10,3 +10,32 @@ Para adicionar um arquivo ao repositório usamos o
 comando: (git add "nome do arquivo")
 
 Para adicionar vários arquivos, usamos: (git add .)
+
+  -Criando versões do código-
+Para criar versões do código utilizamos o 
+comando: (git commit -m "nome da versão")
+
+  -Enviando códigos/projeto/arquivos à nuvem-
+Para enviar tudo que foi feito até agora no GIT Bash à
+nuvem, utilizamos o comando (git push)
+ +dica+ passo 1 : antes de tentar levar à nuvem com o
+comando(git push), temos que escolher em qual nuvem iremos
+enviar as alterações, ou seja, teremos que acessar o 
+GITHUB e pegar o link do respositório que iremos enviar
+tais alterações.
+ passo 2: copiando o link do repositório depois de criado
+usarames o comando (git remote add origin -link-)
+no meu caso ficou: (git remote add origin https://github.
+com/killua99dev/DESAFIO-DIO-GITHUB-primeiro-reposit-rio)
+   
+   -Decidindo a branch para enviar as alterações-
+Após decidirmos o repositório, decidiremos a branch que 
+enviaremos, geralmente usamos a branch master, mas nada
+impede de criarmos outras, inclusive, mais pra frente
+aprenderemos a criar novas branchs, para usarmos a branch
+master usamos: (git push --set-upstream origin master)
+
+   -Alterando o código e salvando no GIT/GITHUB-
+Após adicionar ou retirar alguma linha de um código, temos
+que utilizar o comando aprendido anteriormente (git add .) e
+criarmos uma nova versão usando (git commit -m "o que alterou")
