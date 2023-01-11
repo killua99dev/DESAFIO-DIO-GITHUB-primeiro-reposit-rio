@@ -64,5 +64,10 @@ Para substituir uma branch por outra, iremos rodar
 o comando: (git checkout 'nome da branch que quer usar')
 obs: utilizar aspas simples
 
-
-
+   -Utilizando o processo de merge-
+Para unir os códigos de duas branchs iremos fazer o 
+processo de merge, para isso deveremos seguir os seguintes passos:
+Passo 1: Entrar na branch que irá receber as informações, ou 
+códigos e utilizarmos o comando (git checkout "nome da branch")
+Passo 2: Pós isso iremos utilizar o comando:
+(git merge "nome da branch que está sendo adicionada")
