@@ -1,0 +1,12 @@
+  -Inicialização do programa-
+Para iniciar o Git BASH usamos o comando: (git init)
+ 
+  -Andamento e alterações do programa-
+Para saber sobre o que foi feito até agora usamos o
+comando: (git status)
+ 
+  -Adicionando o arquivo ao repositório-
+Para adicionar um arquivo ao repositório usamos o
+comando: (git add "nome do arquivo")
+
+Para adicionar vários arquivos, usamos: (git add .)
