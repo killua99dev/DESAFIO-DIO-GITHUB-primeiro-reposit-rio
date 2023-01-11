@@ -39,3 +39,17 @@ master usamos: (git push --set-upstream origin master)
 Após adicionar ou retirar alguma linha de um código, temos
 que utilizar o comando aprendido anteriormente (git add .) e
 criarmos uma nova versão usando (git commit -m "o que alterou")
+
+   -Verificando o histórico de alterações-
+Para verificar o histórico utilizaremos o comando: (git reflog)
+com este código o GIT irá listar as alterações feitas, com a 
+nomeaçao que demos no (git commit -m "nome da alteração")
+
+   -Voltando a uma versão anterior do código-
+Para voltar a uma versão do código localmente, utilizaremos o
+comando (git reset --hard "id do código que quer voltar")
+
+Para voltar a versão mais atual usamos o mesmo comando com 
+o id do código mais atual (git reset --hard "id do código mais atual")
+
+ 

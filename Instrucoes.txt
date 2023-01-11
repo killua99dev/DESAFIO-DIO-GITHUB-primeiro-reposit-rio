@@ -1,0 +1,15 @@
+Ao utilizar o comando (git reset --hard "id do código")
+deve-se consultar ao superior ou companheiros que estão
+trabalhando junto no código, caso esteja trabalhando
+sozinho, deve-se ultizar deste comando somente se realmente
+precisar.
+
+Branchs são 'pastas' em que enviamos nossos códigos,
+é importante ter duas ou mais branchs para que uma
+seja para resolver erros ou bugs, ou códigos que estão
+dando dor de cabeça, e outra principal para guardar
+códigos que já estão testados e funcionando.
+
+Merge é o processo de trazer os códigos da branch
+secundária que estão funcionando, para a branch principal
+onde são guardados apenas códigos que funcionam. 
