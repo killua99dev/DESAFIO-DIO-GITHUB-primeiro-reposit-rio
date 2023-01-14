@@ -21,3 +21,5 @@ Qualquer alteração feita numa branch substituta, não
 irá mais para principal, a não ser que façamos o processo
 de merge.
 
+Antes de fazer o merge, fazer o git pull para trazer as
+atualizações do servidor para a máquina local

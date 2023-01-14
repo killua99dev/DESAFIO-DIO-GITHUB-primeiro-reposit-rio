@@ -68,6 +68,27 @@ obs: utilizar aspas simples
 Para unir os códigos de duas branchs iremos fazer o 
 processo de merge, para isso deveremos seguir os seguintes passos:
 Passo 1: Entrar na branch que irá receber as informações, ou 
-códigos e utilizarmos o comando (git checkout "nome da branch")
-Passo 2: Pós isso iremos utilizar o comando:
-(git merge "nome da branch que está sendo adicionada")
+códigos e utilizarmos o comando (git checkout "nome da branch").
+Passo 2: iremos usar o comando (git pull) para trazer
+novas alterações do servidor para a máquina.
+Passo 3: Pós isso iremos utilizar o comando:
+(git merge "nome da branch que está sendo adicionada").
+
+   -Consultando os arquivos ligados ao GIT/GITHUB-
+Para consultar quantos arquivos há usaremos o comando: (ls)
+
+   -Consultando o conteúdo dos arquivos no terminal-
+Para consultar o que há dentro dos arquivos utilizamos o
+comando (git cat "nome do arquivo")
+
+   -Pull Request-
+Para mergear seus códigos, quando estiver em equipe, não
+podemos apenas fazer o processo de merge, precisaremos enviar
+o código e a commit, explicar o que está sendo alterado
+e outra pessoa da equipe irá analisar se deve mergear ou
+não.
+
+   -Como não enviar um arquivo ao controle de versão-
+Para isso usaremos o comando (touch .gitignore), pós isso
+será criada uma pasta do git ignore, e você irá escrever o
+arquivo que você quer que não seja versionado.
